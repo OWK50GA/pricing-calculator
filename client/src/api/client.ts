@@ -23,7 +23,8 @@ export const tokenStore = {
 
 // ─────────────────────────────────────────────────────────────────────────────
 
-const BASE_URL = "/api";
+const BASE_URL = import.meta.env.VITE_API_URL as string;
+console.log(BASE_URL);
 
 type ApiResponse<T> = { data: T; error: null } | { data: null; error: string };
 
