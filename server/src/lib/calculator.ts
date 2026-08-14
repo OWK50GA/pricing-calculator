@@ -1,4 +1,4 @@
-import { Currency, toMajorUnit, toSmallestUnit } from "./currency";
+import { Currency, toMajorUnit, toSmallestUnit } from "./currency.js";
 import {
   DiscountType,
   DocumentResult,
