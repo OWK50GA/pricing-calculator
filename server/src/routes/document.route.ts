@@ -10,7 +10,7 @@ import {
   finalizeDocument,
   getUserDocument,
   listUserDocuments,
-} from "../controllers/document.controller";
+} from "../controllers/document.controller.js";
 
 const router = Router();
 
