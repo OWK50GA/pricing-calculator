@@ -1,0 +1,16 @@
+{
+  "name": "@pricing-calc/calculator",
+  "version": "1.0.0",
+  "description": "Shared calculator logic — runs identically in Node and browser",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3"
+  }
+}

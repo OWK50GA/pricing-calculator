@@ -1,0 +1,10 @@
+packages:
+  - "client"
+  - "server"
+  - "packages/*"
+
+allowBuilds:
+  argon2: true
+  bcrypt: true
+  better-sqlite3: true
+  esbuild: true

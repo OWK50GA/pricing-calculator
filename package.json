@@ -1,0 +1,14 @@
+{
+  "name": "pricing-calculator",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "pnpm --filter server dev",
+    "test": "pnpm --filter server test",
+    "test:watch": "pnpm --filter server test:watch",
+    "test:coverage": "pnpm --filter server test:coverage",
+    "build": "pnpm --filter server build",
+    "client:dev": "pnpm --filter client dev",
+    "client:build": "pnpm --filter client build"
+  }
+}
