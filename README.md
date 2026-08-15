@@ -4,6 +4,10 @@ A full-stack web application for creating documents with line items, applying pe
 
 ---
 
+## Deployed URLs
+- [Backend](https://pricing-calculator-bn05.onrender.com)
+- [Frontend](https://pricing-calculator-client.vercel.app)
+
 ## Prerequisites
 
 - Node.js 20+
@@ -17,7 +21,7 @@ A full-stack web application for creating documents with line items, applying pe
 **1. Clone and install**
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/OWK50GA/pricing-calculator
 cd pricing-calculator
 pnpm install
 ```
